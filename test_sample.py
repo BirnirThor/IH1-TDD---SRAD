@@ -1,7 +1,13 @@
 from sample import fizzbuzz
 
-def test_return_the_input_num():
+def test1_return_input_num():
     assert fizzbuzz(16) == 16
+
+def test2_return_input_num():
+    assert fizzbuzz(77) == 77
+
+def test3_return_input_num():
+    assert fizzbuzz(1234) == 1234
 
 def test1_return_buzz_if_div_by_5():
     assert fizzbuzz(5) == "Buzz"
@@ -29,3 +35,4 @@ def test2_return_fizzbuzz_if_div_by_both():
 
 def test3_return_fizzbuzz_if_div_by_both():
     assert fizzbuzz(330) == "FizzBuzz"
+
